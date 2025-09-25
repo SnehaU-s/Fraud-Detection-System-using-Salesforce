@@ -1,10 +1,1 @@
-# Phase 2 - Salesforce Setup
-
-## What was done:
-- Created **Fraud Detection App**
-- Created **Fraud Case** custom object
-- Added key fields: Transaction ID, Amount, Account Number, Risk Level, Status
-- Created **Fraud Case Tab** in the app
-
-## Why:
-Allows analysts and auditors to track, monitor, and investigate fraudulent transactions efficiently.
+The Fraud Detection System in Salesforce is designed to efficiently track, monitor, and manage potentially fraudulent financial transactions. The system uses a custom object, Fraud Case, with key fields such as Transaction ID, Amount, Account Number, Risk Level, Status, and Fraud Type. Declarative automation, including Workflow Rules, Process Builder, Email Alerts, Task Assignments, and Approval Processes, ensures high-risk cases are flagged, notifications are sent, and analysts are assigned tasks automatically. A customized Lightning App and Record Page provide a user-friendly interface, while Reports and Dashboards allow real-time monitoring of fraud trends. All functionality is implemented without Apex code, ensuring a maintainable, fully functional system ready for demonstration, with future enhancements planned for integrations and advanced UI features.
